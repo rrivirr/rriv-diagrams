@@ -1,9 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T16:46:15.716Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" version="21.3.6" etag="QqbgnjJ0jfad-woGuCD8" type="github">
-  <diagram name="Page-1" id="kISNL_e38dTZr7-t5ltx">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-06-05T18:11:17.229Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="tQFb5Mf-CZub_NwDcr0A" version="21.3.6" type="github" pages="3">
+  <diagram name="overview" id="kISNL_e38dTZr7-t5ltx">
+    <mxGraphModel dx="989" dy="473" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="E4blk4d9wKYtEI80a0FN-1" value="&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;{&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;b&gt;&quot;loggerName&quot;&lt;/b&gt; : &quot;21009&quot;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;b&gt;&quot;siteName&quot;&lt;/b&gt; : &quot;bench&quot;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;b&gt;&quot;deploymentIdentifier&quot;&lt;/b&gt; : &quot;firmwareTest&quot;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;b&gt;&quot;wakeInterval&quot;&lt;/b&gt; : 60,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;b&gt;&quot;startUpDelay&quot;&lt;/b&gt; : 0,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;b&gt;&quot;burstCycle&quot;&lt;/b&gt; : 15,&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;b&gt;&quot;burstInterval&quot;&lt;/b&gt; : 1&lt;br&gt;}&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E4blk4d9wKYtEI80a0FN-2" value="&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;set-config {&quot;loggerName&quot;:&quot;21009&quot;, &quot;siteName&quot;:&quot;bench&quot;, &quot;deploymentIdentifier&quot;:&quot;firmwareTest&quot;, &quot;wakeInterval&quot;:60, &quot;startUpDelay&quot;:0, &quot;burstCycle&quot;:15, &quot;burstInterval&quot;:1}&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="871" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="E4blk4d9wKYtEI80a0FN-3" value="&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Example of a configuration JSON. The left side in bold is the name of a setting and variable in the firmware, and to the right is the value to store.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="200" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="E4blk4d9wKYtEI80a0FN-4" value="&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Example of the CLI command to change the datalogger settings using that JSON.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="43" y="245" width="498" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="JSON" id="V1VH4wnt4poEsaDeOEEy">
+    <mxGraphModel dx="1434" dy="686" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="xx593S0qDeDcQQDWkroD-0" />
+        <mxCell id="xx593S0qDeDcQQDWkroD-1" parent="xx593S0qDeDcQQDWkroD-0" />
+        <mxCell id="xx593S0qDeDcQQDWkroD-2" value="&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;{&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;loggerName&quot; : &quot;21009&quot;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;siteName&quot; : &quot;bench&quot;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;deploymentIdentifier&quot; : &quot;firmwareTest&quot;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;wakeInterval&quot; : 60,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;startUpDelay&quot; : 0,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;burstCycle&quot; : 15,&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;burstInterval&quot; : 1&lt;br&gt;}&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xx593S0qDeDcQQDWkroD-1">
+          <mxGeometry x="40" y="40" width="280" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="set-config" id="DY7B2k4xS1J-U_yjqgAs">
+    <mxGraphModel dx="1434" dy="686" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="kSktP3m9ObxoWpCWAeAH-0" />
+        <mxCell id="kSktP3m9ObxoWpCWAeAH-1" parent="kSktP3m9ObxoWpCWAeAH-0" />
+        <mxCell id="kSktP3m9ObxoWpCWAeAH-3" value="&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;set-config {&quot;loggerName&quot;:&quot;21009&quot;, &quot;siteName&quot;:&quot;bench&quot;, &quot;deploymentIdentifier&quot;:&quot;firmwareTest&quot;, &quot;wakeInterval&quot;:60, &quot;startUpDelay&quot;:0, &quot;burstCycle&quot;:15, &quot;burstInterval&quot;:1}&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kSktP3m9ObxoWpCWAeAH-1">
+          <mxGeometry x="40" y="210" width="871" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
