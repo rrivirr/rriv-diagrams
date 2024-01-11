@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-11T00:26:15.535Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="2x5supx2GuHFeQdzJOYA" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-11T00:31:10.270Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="CPyEB3_tSQvXEfrxgzL6" version="22.1.18" type="github">
   <diagram name="Page-1" id="qCO8pEl2zJ2py9bg0hVu">
     <mxGraphModel dx="1207" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -21,30 +21,22 @@
         <mxCell id="cvJQp6pP5oyXREMTl6of-6" value="&lt;div&gt;2D Flow Measurement&lt;/div&gt;&lt;div&gt;&amp;nbsp;Test&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="230" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cvJQp6pP5oyXREMTl6of-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="cvJQp6pP5oyXREMTl6of-7" target="cvJQp6pP5oyXREMTl6of-22">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1130" y="270" />
-              <mxPoint x="1130" y="145" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cvJQp6pP5oyXREMTl6of-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cvJQp6pP5oyXREMTl6of-7" target="cvJQp6pP5oyXREMTl6of-25">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1130" y="270" />
-              <mxPoint x="1130" y="500" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="cvJQp6pP5oyXREMTl6of-7" value="Ring PCB Form Factor" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cvJQp6pP5oyXREMTl6of-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="cvJQp6pP5oyXREMTl6of-9" target="cvJQp6pP5oyXREMTl6of-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="500" y="410" />
               <mxPoint x="500" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cvJQp6pP5oyXREMTl6of-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="cvJQp6pP5oyXREMTl6of-9" target="cvJQp6pP5oyXREMTl6of-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="410" />
+              <mxPoint x="500" y="515" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -57,13 +49,8 @@
         <mxCell id="cvJQp6pP5oyXREMTl6of-11" value="2D Flow Lab Setup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cvJQp6pP5oyXREMTl6of-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="cvJQp6pP5oyXREMTl6of-16" target="cvJQp6pP5oyXREMTl6of-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="900" y="530" />
-              <mxPoint x="900" y="285" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="cvJQp6pP5oyXREMTl6of-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cvJQp6pP5oyXREMTl6of-16" target="cvJQp6pP5oyXREMTl6of-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cvJQp6pP5oyXREMTl6of-16" value="Assemble Well Spefications" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="500" width="120" height="60" as="geometry" />
