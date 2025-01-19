@@ -1,0 +1,119 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="v0jrJZL1uA_P02cYOUQ-">
+    <mxGraphModel dx="1276" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-1" value="Chirpstack Data Integration Patterns" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="140" y="90" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XjYIlTTo-ovpeLb87gdX-2" target="XjYIlTTo-ovpeLb87gdX-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-2" value="Device" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XjYIlTTo-ovpeLb87gdX-3" target="XjYIlTTo-ovpeLb87gdX-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-7" value="Pre-existing&lt;br&gt;Integration" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XjYIlTTo-ovpeLb87gdX-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.05" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-3" value="Chirpstack" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-5" value="Postgres" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XjYIlTTo-ovpeLb87gdX-9" target="XjYIlTTo-ovpeLb87gdX-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-9" value="Device" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XjYIlTTo-ovpeLb87gdX-10" target="XjYIlTTo-ovpeLb87gdX-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-10" value="Chirpstack" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XjYIlTTo-ovpeLb87gdX-11" target="XjYIlTTo-ovpeLb87gdX-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="XjYIlTTo-ovpeLb87gdX-11" target="XjYIlTTo-ovpeLb87gdX-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-11" value="New/Custom Integration" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XjYIlTTo-ovpeLb87gdX-13" target="XjYIlTTo-ovpeLb87gdX-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-13" value="Intermediate Database Storage" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-15" value="Live Stream (via MQTT?)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XjYIlTTo-ovpeLb87gdX-17" target="XjYIlTTo-ovpeLb87gdX-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-17" value="Process the Data" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-19" value="Timescale DB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XjYIlTTo-ovpeLb87gdX-22" target="XjYIlTTo-ovpeLb87gdX-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-22" value="Device" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XjYIlTTo-ovpeLb87gdX-24" target="XjYIlTTo-ovpeLb87gdX-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-24" value="Chirpstack" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="XjYIlTTo-ovpeLb87gdX-28" target="XjYIlTTo-ovpeLb87gdX-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="860" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XjYIlTTo-ovpeLb87gdX-26" target="XjYIlTTo-ovpeLb87gdX-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-26" value="New/Custom Integration" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-27" value="Live Stream (via MQTT?)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XjYIlTTo-ovpeLb87gdX-28" target="XjYIlTTo-ovpeLb87gdX-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-28" value="Preprocess the Data" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-30" value="Timescale DB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-33" value="Encoded Binary Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-35" value="Binary Data&amp;nbsp;&lt;br&gt;w/ LoRaWAN metadata" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="550" y="870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-37" value="Raw Decoded Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="750" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XjYIlTTo-ovpeLb87gdX-38" value="Processed Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="970" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
