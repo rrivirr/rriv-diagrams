@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="k5yzBwlb5C6gMiQDsxoa">
-    <mxGraphModel dx="947" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1457" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,13 +73,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gNDXgYlEA8s39l7E3UoO-14" value="K8s in DO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="860" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="840" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gNDXgYlEA8s39l7E3UoO-15" value="Open Internet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="800" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gNDXgYlEA8s39l7E3UoO-18" value="International Collaborators" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="800" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="780" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gNDXgYlEA8s39l7E3UoO-20" value="Exit Node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="680" y="420" width="120" height="60" as="geometry" />
@@ -101,6 +101,15 @@
         </mxCell>
         <mxCell id="gNDXgYlEA8s39l7E3UoO-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.383;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="gNDXgYlEA8s39l7E3UoO-20" target="gNDXgYlEA8s39l7E3UoO-15">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNDXgYlEA8s39l7E3UoO-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="gNDXgYlEA8s39l7E3UoO-31" target="gNDXgYlEA8s39l7E3UoO-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNDXgYlEA8s39l7E3UoO-31" value="RRIV Boards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNDXgYlEA8s39l7E3UoO-32" value="Edge Router" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
