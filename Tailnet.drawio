@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="k5yzBwlb5C6gMiQDsxoa">
-    <mxGraphModel dx="1184" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1722" dy="1349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gNDXgYlEA8s39l7E3UoO-39" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="707" width="360" height="320" as="geometry" />
+        </mxCell>
         <mxCell id="gNDXgYlEA8s39l7E3UoO-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="90" width="400" height="370" as="geometry" />
         </mxCell>
@@ -64,7 +67,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gNDXgYlEA8s39l7E3UoO-12" value="LLM Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="110" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gNDXgYlEA8s39l7E3UoO-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="gNDXgYlEA8s39l7E3UoO-12" target="gNDXgYlEA8s39l7E3UoO-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -102,14 +105,44 @@
         <mxCell id="gNDXgYlEA8s39l7E3UoO-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.383;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="gNDXgYlEA8s39l7E3UoO-20" target="gNDXgYlEA8s39l7E3UoO-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gNDXgYlEA8s39l7E3UoO-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="gNDXgYlEA8s39l7E3UoO-31" target="gNDXgYlEA8s39l7E3UoO-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="gNDXgYlEA8s39l7E3UoO-31" value="RRIV Boards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="1110" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gNDXgYlEA8s39l7E3UoO-32" value="Edge Router" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1000" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNDXgYlEA8s39l7E3UoO-35" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="gNDXgYlEA8s39l7E3UoO-34" target="gNDXgYlEA8s39l7E3UoO-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNDXgYlEA8s39l7E3UoO-34" value="LoRaWAN Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNDXgYlEA8s39l7E3UoO-37" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gNDXgYlEA8s39l7E3UoO-32" target="gNDXgYlEA8s39l7E3UoO-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1155" y="550" as="sourcePoint" />
+            <mxPoint x="1175" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNDXgYlEA8s39l7E3UoO-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="gNDXgYlEA8s39l7E3UoO-38" target="gNDXgYlEA8s39l7E3UoO-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNDXgYlEA8s39l7E3UoO-38" value="LoRaWAN Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNDXgYlEA8s39l7E3UoO-40" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.008;exitY=0.625;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" target="gNDXgYlEA8s39l7E3UoO-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="549" y="390" as="sourcePoint" />
+            <mxPoint x="500" y="462" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNDXgYlEA8s39l7E3UoO-41" value="RRIV Boards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="230" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNDXgYlEA8s39l7E3UoO-43" value="IoT Subnet" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="730" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
