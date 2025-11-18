@@ -1,13 +1,13 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.7">
   <diagram name="Page-1" id="pU-WQpOBazzZz65nA8Np">
-    <mxGraphModel dx="2006" dy="1203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1630" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Szpcdd1Q2Tb-eUwPZKVr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Szpcdd1Q2Tb-eUwPZKVr-1" target="Szpcdd1Q2Tb-eUwPZKVr-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Szpcdd1Q2Tb-eUwPZKVr-1" value="Register Devices&lt;br&gt;(Serial Number)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Szpcdd1Q2Tb-eUwPZKVr-1" value="Register Devices&lt;br&gt;(Serial number, from device or manual)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Szpcdd1Q2Tb-eUwPZKVr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Szpcdd1Q2Tb-eUwPZKVr-2" target="Szpcdd1Q2Tb-eUwPZKVr-4">
