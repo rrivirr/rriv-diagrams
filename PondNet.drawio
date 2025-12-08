@@ -71,8 +71,8 @@
             <mxPoint x="760" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wy5pVC1S2j-kVgNlSQlZ-22" value="AI Models" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="370" width="120" height="60" as="geometry" />
+        <mxCell id="Wy5pVC1S2j-kVgNlSQlZ-22" value="Models" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="340" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
